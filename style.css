@@ -1,0 +1,54 @@
+body{
+    background-color: #a9d2ec !important;
+  }
+
+  .display-6{
+    margin-top: 20px;
+    color: #000000;
+    font-weight: bold;
+    background-color: #6c666c;
+  }
+  h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    text-align: center;
+   
+    margin-top: 20px;
+       
+    font-weight: bold !important;
+    
+  }
+
+  .form-control{
+    color: #6c666c ;
+    opacity: 0.5;
+    border-color: #6c666c !important;
+  }
+  
+
+  .Parametros{
+    color: #6c666c;
+    font-weight: bold;
+    font-size: 20px;
+  
+  }
+
+  .btn-p{
+    background-color:#6c666c !important;
+    border-color: #6c666c !important;
+    
+  }
+  .btn-p:hover{
+    font-weight: bold;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  #map{
+    height: 500px !important;
+    width: 800px;
+  }
+  #tiempoViaje{
+    color: #906090 !important;
+    font-weight: bold;
+    margin-left: 11px;
+  }
