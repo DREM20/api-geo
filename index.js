@@ -2,7 +2,7 @@ let mapa;
 
 // Funcion initMap para especificar todas las caracteristicas del mapa y crearlo.
 function initMap() {
-  // Arreglo de los lugares que se van a mostrar al principio.
+  // Arreglo de los lugares que se muestran 
   const lugares = [
     {
       nombre: "Universidad Tecnológica de Puebla",
@@ -25,14 +25,19 @@ function initMap() {
       longitud: -98.23356690237293,
     },
     {
-      nombre: "Casita de Perla",
-      latitud: 18.95295,
-      longitud: -98.2433,
+      nombre: "Casa de Diego Eduardo",
+      latitud: 19.058385, 
+      longitud: -98.170535,
     },
     {
-      nombre: "Casita de David",
-      latitud: 19.062275,
-      longitud: -98.188391,
+      nombre: "Casa de Carlos",
+      latitud: 18.964576, 
+      longitud: -98.261826,
+    },
+    {
+      nombre: "Casa de Arturo Leonel",
+      latitud: 19.039524,
+      longitud: -98.131425,
     },
   ];
   
@@ -57,7 +62,7 @@ function agregarMarcador(nombre, latitud, longitud) {
     animation: google.maps.Animation.DROP,
     icon: {
       url: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png', // URL de la imagen del marcador
-      scaledSize: new google.maps.Size(50, 50), // Tamaño del marcador
+      scaledSize: new google.maps.Size(60, 60), // Tamaño del marcador
     }
   });
   
